@@ -59,4 +59,4 @@ def is_valid(string):
                 stack.pop()
             else:
                 return False
-    return stack.is_empty() # возвращаем True если проход по строке был "успешным".
+    return stack.is_empty() # возвращаем True, если проход по строке был "успешным".
